@@ -30,7 +30,7 @@
         slides-per-view={1}
         centered-slides={true}
         autoplay={{
-            delay:5000,
+            delay:10000,
             disableOnInteraction: false,
         }}
         pagination={{
@@ -47,7 +47,7 @@
             <div class="flex flex-col text-white">
                 <span class="text-5xl ">Welcome to Hasanuddin University</span>
                 <span class="text-5xl ">Department of Physics</span>
-                <p class="text-xl mt-2">Embark on a journey to unveil the true nature of reality, from the grandest cosmic scales to the tiniest subatomic particles</p>
+                <p class="text-xl mt-2"><i>Embark on a journey to unveil the true nature of reality, from the grandest cosmic scales to the tiniest subatomic particles</i></p>
             </div>
             <Button class='bg-redUH-500 text-white hover:bg-redUH-600 active:bg-redUH-700 mt-6 rounded-full'>
                 <Play class='h-5 w-5 mr-2 font-light' strokeWidth=2 />Watch our Introduction Video
