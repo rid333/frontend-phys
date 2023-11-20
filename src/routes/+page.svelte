@@ -3,7 +3,8 @@
     import { onMount } from 'svelte';
     import { register } from 'swiper/element/bundle';
     import { Button } from '$lib/components/ui/button';
-    import { Play } from 'lucide-svelte';
+    import { Separator } from "$lib/components/ui/separator";
+    import { Play, ArrowRight } from 'lucide-svelte';
     register();
 
     let imagesCarousel: {
@@ -25,7 +26,7 @@
     })
 </script>
 
-<div>
+<div class="carousel">
     <swiper-container
         slides-per-view={1}
         centered-slides={true}
@@ -58,6 +59,40 @@
     </swiper-container>
 </div>
 
-<div>
-    
+<div class="programs flex justify-center items-center gap-x-14 my-20 mx-auto px-10 max-w-7xl">
+    <div class="flex flex-col gap-y-8 mx-auto justify-center w-2/5">
+        <div class="flex flex-col gap-y-4">
+            <h2 class="scroll-m-20 text-3xl font-bold tracking-tight transition-colors first:mt-0">
+                Undergraduate Programs
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dolores deleniti aut modi minus voluptatibus?</p>
+            <Button class='w-fit font-medium bg-darkgreenUH-500 text-white hover:bg-darkgreenUH-600 active:bg-blueUH-700 rounded-lg'>
+                Learn More <ArrowRight class='ml-2 h-5 w-5' strokeWidth=2 />
+            </Button>
+        </div>
+        <Separator class='bg-slate-400'/>
+        <div class="flex flex-col gap-y-4">
+            <h2 class="scroll-m-20 text-3xl font-bold tracking-tight transition-colors first:mt-0">
+                Graduate Programs
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio expedita laborum voluptas fugiat tenetur eligendi.</p>
+            <Button class='w-fit font-medium bg-darkgreenUH-500 text-white hover:bg-darkgreenUH-600 active:bg-blueUH-700 rounded-lg'>
+                Learn More <ArrowRight class='ml-2 h-5 w-5' strokeWidth=2 />
+            </Button>
+        </div>
+    </div>
+    <div class="grid grid-cols-3 gap-4 w-3/5">
+        <div class="overflow-hidden">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+        </div>
+        <div class="overflow-hidden col-span-2">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+        </div>
+        <div class="overflow-hidden col-span-2 cursor-pointer">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+        </div>
+        <div class="overflow-hidden cursor-pointer">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+        </div>
+    </div>
 </div>
