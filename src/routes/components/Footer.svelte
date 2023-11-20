@@ -27,7 +27,7 @@
         <div class="flex flex-col gap-y-1">
             <p class="text-white font-semibold mb-4">Links</p>
             <a href="/">LMS Unhas</a>
-            <a href="/"> SIM Unhas</a>
+            <a href="/">SIM Unhas</a>
             <a href="/">Login BKD Unhas</a>
             <a href="/">Login Penelitian Internal</a>
             <a href="/">FMIPA Unhas</a>

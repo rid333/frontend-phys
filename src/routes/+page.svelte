@@ -42,14 +42,11 @@
         effect='fade'
         class="relative"
     >
-        <div class='absolute top-0 left-0 w-2/3 blur-3xl h-full bg-black opacity-60 z-10'></div>
-        <div class="absolute top-1/3 left-24 text-white z-10 w-2/5">
-            <div class="flex flex-col text-white">
-                <span class="text-5xl ">Welcome to Hasanuddin University</span>
-                <span class="text-5xl ">Department of Physics</span>
-                <p class="text-xl mt-2"><i>Embark on a journey to unveil the true nature of reality, from the grandest cosmic scales to the tiniest subatomic particles</i></p>
-            </div>
-            <Button class='bg-redUH-500 text-white hover:bg-redUH-600 active:bg-redUH-700 mt-6 rounded-full'>
+        <div class='absolute top-0 left-0 w-2/3 blur-3xl h-full bg-black opacity-70 z-10'></div>
+        <div class="flex flex-col gap-y-6 absolute top-1/3 left-24 text-white z-10 w-2/5">
+            <p class="text-4xl font-bold">Welcome to Hasanuddin University Department of Physics</p>
+            <p class="text-lg font-medium text-slate100"><i>"Embark on a journey to unveil the true nature of reality, from the grandest cosmic scales to the tiniest subatomic particles"</i></p>
+            <Button class='w-fit font-medium bg-redUH-500 text-white hover:bg-redUH-600 active:bg-redUH-700 rounded-full'>
                 <Play class='h-5 w-5 mr-2 font-light' strokeWidth=2 />Watch our Introduction Video
             </Button>
         </div>
@@ -62,5 +59,5 @@
 </div>
 
 <div>
-    Hello world
+    
 </div>
