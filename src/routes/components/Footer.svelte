@@ -39,7 +39,7 @@
             <p class="text-white font-semibold mb-4">Journals</p>
             <a href="/">Unhas E-Journals: Fusi, Jurnal MIPA, Etc.</a>
             <a href="/">APS Journals: Letter A, B, C, D, E, X</a>
-            <a href="/">IOP Journals,Journal of Physics A</a>
+            <a href="/">IOP Journals, Journal of Physics A</a>
             <a href="/">Nature Journal: Nature Physics, Science</a>
             <a href="/">Elsevier Journals</a>
         </div>
