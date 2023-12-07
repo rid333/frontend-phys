@@ -33,7 +33,7 @@
         <div class="flex flex-col gap-y-6 absolute top-1/3 left-24 text-white z-10 w-2/5">
             <p class="text-4xl font-bold">Welcome to Hasanuddin University Department of Physics</p>
             <p class="text-lg font-medium text-slate100"><i>"Embark on a journey to unveil the true nature of reality, from the grandest cosmic scales to the tiniest subatomic particles"</i></p>
-            <Button class='w-fit bg-opacity-75 font-medium bg-redUH-500 text-white hover:bg-redUH-600 active:bg-redUH-700 rounded-full'>
+            <Button class='w-fit bg-opacity-75 font-medium bg-redUH-500 text-white hover:bg-redUH-600 active:bg-redUH-700 rounded-none'>
                 <Play class='h-5 w-5 mr-2 font-light' strokeWidth=2 />Watch our Introduction Video
             </Button>
         </div>
@@ -54,7 +54,7 @@
                 Undergraduate Program
             </h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dolores deleniti aut modi minus voluptatibus?</p>
-            <Button class='w-fit font-medium bg-darkgreenUH-500 hover:bg-darkgreenUH-700 active:scale-95 transition text-white rounded-lg'>
+            <Button class='w-fit font-medium bg-darkgreenUH-500 hover:bg-darkgreenUH-400 active:scale-95 transition text-white rounded-none'>
                 Learn More <ArrowRight class='ml-2 h-5 w-5' strokeWidth=2 />
             </Button>
         </div>
@@ -64,25 +64,25 @@
                 Graduate Program
             </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio expedita laborum voluptas fugiat tenetur eligendi.</p>
-            <Button class='w-fit font-medium bg-darkgreenUH-500 hover:bg-darkgreenUH-700 active:scale-95 transition text-white rounded-lg'>
+            <Button class='w-fit font-medium bg-darkgreenUH-500 hover:bg-darkgreenUH-400 active:scale-95 transition text-white rounded-none'>
                 Learn More <ArrowRight class='ml-2 h-5 w-5' strokeWidth=2 />
             </Button>
         </div>
     </div>
     <div class="grid grid-cols-3 gap-4 w-3/5">
         <div class="overflow-hidden">
-            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover">
         </div>
         <div class="overflow-hidden col-span-2">
-            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover">
         </div>
         <div class="overflow-hidden col-span-2 cursor-pointer">
-            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover">
         </div>
         <div class="overflow-hidden cursor-pointer">
-            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover rounded-lg">
+            <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover">
         </div>
     </div>
-
-
 </div>
+
+

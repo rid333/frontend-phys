@@ -121,7 +121,7 @@ const config = {
 				sm: "calc(var(--radius) - 4px)"
 			},
 			fontFamily: {
-				sans: ["Open Sans", "sans-serif"],
+				sans: ["Raleway", "sans-serif"],
 			},
 		}
 	},

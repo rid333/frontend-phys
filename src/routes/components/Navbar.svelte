@@ -21,8 +21,8 @@
     </Button>
     {#each menus as menu (menu.id)}
         <Menu>
-            <Trigger class='cursor-pointer'>{menu.menu} <ChevronDown class='ml-2 h-4 w-4 left-3' /></Trigger>
-            <Content>
+            <Trigger class='cursor-pointer rounded-none'>{menu.menu} <ChevronDown class='ml-2 h-4 w-4 left-3' /></Trigger>
+            <Content class='rounded-none'>
                 {#each menu.items as item}
                     <ItemBar>{item}</ItemBar>
                     <Separator />
@@ -32,6 +32,6 @@
     {/each}
     <div class="flex items-center relative">
         <Search class='absolute mr-2 h-4 w-4 left-3 text-muted-foreground' />
-        <Input type='search' placeholder="Search" class='h-8 pl-8 pr-3 max-w-[180px] border-2 focus:outline-none' />
+        <Input type='search' placeholder="Search" class='h-8 pl-8 pr-3 max-w-[180px] border-2 focus:outline-none rounded-none' />
     </div>
 </MenuBar>
