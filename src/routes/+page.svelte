@@ -85,6 +85,7 @@
     </div>
 </div>
 
+
 <!-- Research Areas -->
 <div class="research-areas flex flex-col my-40 items-center m-auto text-white max-w-7xl">
     <h1 class="italic text-5xl font-medium scroll-m-20 text-black underline mb-20">RESEARCH AREAS</h1>
@@ -128,4 +129,10 @@
             <a href="/" class="bg-white p-4 w-fit"><ExternalLink color='#0D1F0F' strokeWidth=2 /></a>
         </div>
     </div>
+</div>
+
+
+<!-- Recent News -->
+<div>
+    <p class="italic text-5xl font-medium scroll-m-20 text-black underline mb-20">RECENT NEWS</p>
 </div>
