@@ -1,29 +1,13 @@
 <script lang="ts">
-    import axios from 'axios';
-    import { onMount } from 'svelte';
     import { register } from 'swiper/element/bundle';
     import { Button } from '$lib/components/ui/button';
     import { Separator } from "$lib/components/ui/separator";
     import { Play, ArrowRight } from 'lucide-svelte';
+    import type { PageData } from './$types';
     register();
 
-    let imagesCarousel: {
-        id: number;
-        _embedded: {
-            'wp:featuredmedia': {
-                0: {
-                    source_url: string;
-                }
-            }
-        }
-    }[] = [];
-    const fetchData = async () => {
-        const res = await axios.get('http://localhost:8000/wp-json/wp/v2/carousel?_embed');
-        imagesCarousel = res.data;
-    }
-    onMount(() => {
-        fetchData();
-    })
+    export let data: PageData;
+    const { images } = data;
 </script>
 
 <div class="carousel">
@@ -51,9 +35,9 @@
                 <Play class='h-5 w-5 mr-2 font-light' strokeWidth=2 />Watch our Introduction Video
             </Button>
         </div>
-        {#each imagesCarousel as image}
+        {#each images as image}
             <swiper-slide>
-                <img src={image._embedded['wp:featuredmedia'][0].source_url} alt="img" class="w-screen h-screen"/>
+                <img src={image} alt="img" class="w-screen h-screen"/>
             </swiper-slide>
         {/each}
     </swiper-container>
