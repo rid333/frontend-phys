@@ -15,7 +15,7 @@
 </script>
 
 <MenuBar class='px-5 py-7 w-screen rounded-none fixed z-10'>
-    <Button variant='ghost' class='flex items-center mr-auto font-semibold gap-x-2 hover:bg-white'>
+    <Button  href="/" variant='ghost' class='flex items-center mr-auto font-semibold gap-x-2 hover:bg-white'>
         <img src={Logo} alt="Logo Unhas" class="h-10">
         Department of Physics
     </Button>
@@ -30,6 +30,11 @@
             </Content>
         </Menu>
     {/each}
+    <Menu>
+        <ItemBar class="cursor-pointer font-medium rounded-none">
+            <a href="/">News</a>
+        </ItemBar>
+    </Menu>
     <div class="flex items-center relative">
         <Search class='absolute mr-2 h-4 w-4 left-3 text-muted-foreground' />
         <Input type='search' placeholder="Search" class='h-8 pl-8 pr-3 max-w-[180px] border-2 focus:outline-none rounded-none' />
