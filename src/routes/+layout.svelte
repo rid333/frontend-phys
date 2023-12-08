@@ -4,8 +4,8 @@
   import Navbar from "./components/Navbar.svelte";
 </script>
 
-<div class=" bg-amber-50">
-<Navbar />
-<slot />
-<Footer />
+<div>
+  <Navbar />
+  <slot />
+  <Footer />
 </div>
