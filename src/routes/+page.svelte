@@ -47,9 +47,9 @@
 
 
 <!-- Undergraduate and Graduate Program -->
-<div class="py-20 bg-white h-full w-full">
+<div class="py-20 bg-white h-full w-full relative">
     <div class="programs flex justify-center items-center gap-x-14 mx-auto px-10 max-w-7xl">
-        <div class="flex flex-col gap-y-8 mx-auto justify-center w-2/5">
+        <div class="flex flex-col gap-y-8 mx-auto justify-center w-2/5 z-0">
             <div class="flex flex-col gap-y-4">
                 <h2 class="italic scroll-m-20 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
                     UNDERGRADUATE PROGRAM
@@ -70,7 +70,7 @@
                 </Button>
             </div>
         </div>
-        <div class="grid grid-cols-3 gap-4 w-3/5">
+        <div class="grid grid-cols-3 gap-4 w-3/5 z-0">
             <div class="overflow-hidden">
                 <img src="https://plus.unsplash.com/premium_photo-1666788168307-261f7905225e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8" alt="img" class="h-52 w-full hover:scale-125 transition duration-500 cursor-pointer object-cover">
             </div>
@@ -89,11 +89,12 @@
 
 
 <!-- Research Areas -->
-<div class="py-20 bg-slate-100 h-full w-full">
+<div class="py-20 bg-slate-100 h-full w-full relative">
+    <div class="absolute font-extrabold text-[11rem] text-slate-200 top-0 opacity-70">Research Areas</div>
     <div class="research-areas flex flex-col items-center m-auto text-white max-w-7xl">
-        <h1 class="italic text-4xl font-bold scroll-m-20 p-3 underline mb-20 bg-redUH-400">RESEARCH AREAS</h1>
+        <h1 class="italic text-4xl font-bold scroll-m-20 p-3 underline mb-20 bg-redUH-400 z-0">RESEARCH AREAS</h1>
         <div class="flex items-center justify-center">
-            <div class="overflow-hidden">
+            <div class="overflow-hidden z-0">
                 <img src="https://images.unsplash.com/photo-1690215230221-25d75d0cd6c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydHJhaXQlMjBzY2VuZXJ5fGVufDB8fDB8fHww" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
             </div>
             <div class="box flex flex-col justify-center bg-redUH-400 p-14 w-2/3 gap-y-7 -ml-20 z-0">
@@ -103,7 +104,7 @@
             </div>
         </div>
         <div class="flex flex-row-reverse justify-center items-center">
-            <div class="overflow-hidden">
+            <div class="overflow-hidden z-0">
                 <img src="https://images.unsplash.com/photo-1696737525743-8f81603b5ef0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXQlMjBzY2VuZXJ5fGVufDB8fDB8fHww" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
             </div>
             <div class="box flex flex-col justify-center bg-yellowUH-800 p-14 w-2/3 gap-y-7 -mr-20 z-0">
@@ -113,7 +114,7 @@
             </div>
         </div>
         <div class="flex justify-center items-center">
-            <div class="overflow-hidden w-2/3">
+            <div class="overflow-hidden w-2/3 z-0">
                 <img src="https://images.unsplash.com/photo-1657456553828-aef801dae56d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
             </div>
             <div class="box flex flex-col justify-center bg-blueUH-500 p-14 w-2/3 gap-y-7 -ml-20 z-0">
@@ -123,7 +124,7 @@
             </div>
         </div>
         <div class="flex flex-row-reverse justify-center items-center">
-            <div class="overflow-hidden">
+            <div class="overflow-hidden z-0">
                 <img src="https://images.unsplash.com/photo-1561394706-0f5b464eaa15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBvcnRyYWl0JTIwc2NlbmVyeXxlbnwwfHwwfHx8MA%3D%3D" alt="" class="hover:scale-110 transition duration-500 cursor-pointer object-cover">
             </div>
             <div class="box flex flex-col justify-center bg-darkgreenUH-500 p-14 w-2/3 gap-y-7 -mr-20 z-0">
@@ -137,10 +138,11 @@
 
 
 <!-- Recent News -->
-<div class="py-20 bg-white h-full w-full">
+<div class="py-20 bg-white h-full w-full relative">
+    <div class="absolute font-extrabold text-[11rem] text-slate-200 top-0 opacity-50">Recent News</div>
     <div class="flex flex-col items-center m-auto text-white max-w-7xl">
-        <p class="italic text-4xl font-bold scroll-m-20 p-3 underline mb-20 bg-redUH-400">RECENT NEWS</p>
-        <div class="grid grid-cols-3 gap-x-20">
+        <p class="italic text-4xl font-bold scroll-m-20 p-3 underline mb-20 bg-redUH-400 z-0">RECENT NEWS</p>
+        <div class="grid grid-cols-3 gap-x-20 z-0">
             <div class="antialiased text-black">
                 <div class="flex flex-col justify-center items-center">
                     <div>
